@@ -1,0 +1,19 @@
+{
+  "name": "devxschool-api",
+  "version": "1.0.0",
+  "description": "WebSocket API that receives the text (code) whenever the user types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon src/index.js"
+  },
+  "keywords": [
+    "webSocket"
+  ],
+  "author": "Parmeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.12.1"
+  }
+}
