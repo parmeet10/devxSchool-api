@@ -82,7 +82,7 @@ pong
 
 `String`
 
-### Response
+### Response(POST)
 
 ```
 { "message": "Hello welcome to my new WebSocket Connection" }
