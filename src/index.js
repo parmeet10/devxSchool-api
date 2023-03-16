@@ -60,6 +60,6 @@ const handleMessage = (message, userId) => {
 
 const handleDisconnect = (code, userId) => {
   if (userId && code == 1000)
-    console.log(`${userId} DISCONNECTED SUCCESSFUllY FROM SOCKET from test`);
+    console.log(`${userId} DISCONNECTED SUCCESSFUllY`);
   return;
 };
