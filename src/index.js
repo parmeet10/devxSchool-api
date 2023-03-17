@@ -20,7 +20,7 @@ const clients = {};
 const userActivity = {};
 
 wsServer.on("connection", function (connection, request) {
-  console.log("RECIVED A NEW CONNECTION");
+  // new status
 
   let userId = new URL(
     request.url,
