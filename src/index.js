@@ -11,7 +11,7 @@ app.get("/ping", (req, res) => {
 
 const server = app.listen(port, () => {
   console.log(`${new Date()}`);
-  console.log(`Server running on port:${port}`);
+  console.log(`Server started and running on port:${port}`);
 });
 
 const wsServer = new WebSocketServer({ server });
